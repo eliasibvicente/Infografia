@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Infografía - Streaming</title>
+<title>Infografía - Fundamentos de Arquitectura Computacional</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -34,161 +34,280 @@ box-shadow:0 15px 30px rgba(0,0,0,0.15);
 
 <body class="text-gray-800">
 
-<div class="max-w-6xl mx-auto my-10 bg-white rounded-3xl shadow-2xl overflow-hidden">
+<div class="max-w-7xl mx-auto my-10 bg-white rounded-3xl shadow-2xl overflow-hidden">
 
 <!-- HEADER -->
 
-<div class="bg-gradient-to-r from-purple-600 to-indigo-800 text-white p-10 text-center">
+<div class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white p-10 text-center">
 
 <h1 class="text-4xl font-extrabold mb-4">
-Streaming en Internet
+💻 Fundamentos de Arquitectura Computacional
 </h1>
 
-<p class="text-lg text-purple-100">
-Tecnología para transmitir contenido en tiempo real
+<p class="text-lg text-blue-100">
+Comprendiendo los componentes esenciales y la evolución histórica de la computadora
 </p>
 
 </div>
 
 <div class="p-10 bg-gray-50 space-y-12">
 
-<!-- DEFINICION -->
+<!-- DEFINICIÓN -->
 
-<div class="card bg-white p-8 rounded-2xl shadow border border-gray-200">
+<div class="card bg-white p-8 rounded-2xl shadow border">
 
-<h2 class="text-2xl font-bold mb-3 text-indigo-700">
-🎥 ¿Qué es el streaming?
+<h2 class="text-2xl font-bold text-indigo-700 mb-3">
+🏗️ ¿Qué es la Arquitectura Computacional?
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-El streaming es una tecnología que permite reproducir contenido multimedia
-(video, audio o transmisiones en vivo) a través de Internet sin necesidad
-de descargar el archivo completo. El contenido se envía en pequeños
-fragmentos que se reproducen en tiempo real, lo que permite una experiencia
-inmediata para el usuario.
+Es la disciplina que estudia la organización interna de una computadora y la manera en que
+sus componentes trabajan conjuntamente para recibir, procesar, almacenar y transmitir información.
+Su objetivo es optimizar el funcionamiento de los recursos que integran un sistema de cómputo.
 </p>
 
 </div>
 
-<!-- DISPOSITIVOS -->
+<!-- FUNCIONAMIENTO GENERAL -->
 
-<div class="card bg-blue-50 p-8 rounded-2xl border border-blue-200">
+<div class="card bg-indigo-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold mb-6 text-blue-700">
-📱 Dispositivos para hacer streaming
+<h2 class="text-2xl font-bold text-indigo-700 mb-6">
+⚙️ Funcionamiento General de una Computadora
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="bg-white p-5 rounded-xl border text-center">
+<h3 class="font-semibold">📥 Entrada</h3>
+<p class="text-sm">Recepción de datos e instrucciones desde el usuario.</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border text-center">
+<h3 class="font-semibold">🧠 Procesamiento</h3>
+<p class="text-sm">La CPU ejecuta instrucciones y realiza cálculos.</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border text-center">
+<h3 class="font-semibold">💾 Almacenamiento</h3>
+<p class="text-sm">Conservación temporal o permanente de información.</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border text-center">
+<h3 class="font-semibold">📤 Salida</h3>
+<p class="text-sm">Presentación de resultados al usuario.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- COMPONENTES -->
+
+<div class="card bg-blue-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-blue-700 mb-6">
+🖥️ Dispositivos que Integran la Computadora
 </h2>
 
 <div class="grid md:grid-cols-3 gap-6">
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Computadora</h3>
-<p class="text-sm">Ideal para transmisiones profesionales y uso de software especializado.</p>
+<h3 class="font-semibold">🧠 CPU (Procesador)</h3>
+<p class="text-sm">
+Es el cerebro del sistema. Ejecuta instrucciones, procesa datos y coordina el funcionamiento de los demás componentes.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Smartphone</h3>
-<p class="text-sm">Permite hacer streaming en vivo de forma rápida desde cualquier lugar.</p>
+<h3 class="font-semibold">⚡ Memoria RAM</h3>
+<p class="text-sm">
+Almacena temporalmente programas y datos que se utilizan en tiempo real para agilizar el procesamiento.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Cámaras y micrófonos</h3>
-<p class="text-sm">Mejoran la calidad de imagen y audio en transmisiones.</p>
+<h3 class="font-semibold">💾 SSD / HDD</h3>
+<p class="text-sm">
+Guardan información de forma permanente, incluyendo sistemas operativos, aplicaciones y archivos.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Consolas</h3>
-<p class="text-sm">Permiten transmitir videojuegos en plataformas especializadas.</p>
+<h3 class="font-semibold">⌨️ Dispositivos de Entrada</h3>
+<p class="text-sm">
+Permiten introducir datos al sistema: teclado, ratón, escáner, micrófono y cámara web.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Capturadoras</h3>
-<p class="text-sm">Se utilizan para transmitir contenido de otros dispositivos.</p>
+<h3 class="font-semibold">🖨️ Dispositivos de Salida</h3>
+<p class="text-sm">
+Muestran los resultados del procesamiento mediante monitores, impresoras, bocinas o proyectores.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Smart TV</h3>
-<p class="text-sm">Para visualizar contenido en streaming en pantallas grandes.</p>
+<h3 class="font-semibold">🌐 Comunicación</h3>
+<p class="text-sm">
+Tarjetas de red y adaptadores inalámbricos que permiten la conexión a redes e Internet.
+</p>
 </div>
 
 </div>
 
 </div>
 
-<!-- APPS -->
+<!-- RELACIÓN ENTRE COMPONENTES -->
 
-<div class="card bg-purple-50 p-8 rounded-2xl border border-purple-200">
+<div class="card bg-green-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold mb-6 text-purple-700">
-🌐 Aplicaciones de streaming más importantes
+<h2 class="text-2xl font-bold text-green-700 mb-6">
+🔄 Relación entre los Componentes
 </h2>
 
-<div class="grid md:grid-cols-3 gap-6">
+<div class="grid md:grid-cols-5 gap-4 text-center">
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">YouTube</h3>
-<p class="text-sm">Plataforma para videos y transmisiones en vivo.</p>
+<div class="bg-white p-4 rounded-xl border">
+📥<br>
+<strong>Entrada</strong>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Twitch</h3>
-<p class="text-sm">Especializada en streaming de videojuegos.</p>
+<div class="bg-white p-4 rounded-xl border">
+⚡<br>
+<strong>RAM</strong>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Facebook Live</h3>
-<p class="text-sm">Transmisiones en vivo en redes sociales.</p>
+<div class="bg-white p-4 rounded-xl border">
+🧠<br>
+<strong>CPU</strong>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Netflix</h3>
-<p class="text-sm">Streaming de películas y series bajo demanda.</p>
+<div class="bg-white p-4 rounded-xl border">
+💾<br>
+<strong>Almacenamiento</strong>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Spotify</h3>
-<p class="text-sm">Streaming de música en línea.</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Zoom</h3>
-<p class="text-sm">Streaming para reuniones y videoconferencias.</p>
+<div class="bg-white p-4 rounded-xl border">
+📤<br>
+<strong>Salida</strong>
 </div>
 
 </div>
 
+<p class="mt-6 text-gray-600">
+La eficiencia de una computadora depende de la interacción coordinada entre todos sus componentes.
+Cada dispositivo cumple una función específica dentro del flujo de procesamiento de la información.
+</p>
+
 </div>
 
-<!-- CONECTIVIDAD -->
+<!-- HISTORIA -->
 
-<div class="card bg-green-50 p-8 rounded-2xl border border-green-200">
+<div class="card bg-orange-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold mb-6 text-green-700">
-🌍 Conectividad para streaming
+<h2 class="text-2xl font-bold text-orange-700 mb-6">
+📜 Evolución Histórica de la Computadora
 </h2>
 
-<div class="grid md:grid-cols-2 gap-6">
+<div class="grid md:grid-cols-5 gap-5">
+
+<div class="bg-white p-4 rounded-xl border">
+<h3 class="font-semibold">🧮 Antigüedad</h3>
+<p class="text-sm">
+Ábaco y herramientas mecánicas para cálculos básicos.
+</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+<h3 class="font-semibold">⚙️ Siglos XVII-XIX</h3>
+<p class="text-sm">
+Pascal desarrolla calculadoras mecánicas y Babbage diseña la Máquina Analítica.
+</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+<h3 class="font-semibold">🔌 Siglo XX</h3>
+<p class="text-sm">
+Surgen las primeras computadoras electrónicas como ENIAC.
+</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+<h3 class="font-semibold">💻 Computadoras Personales</h3>
+<p class="text-sm">
+Los microprocesadores permiten la masificación de la informática.
+</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+<h3 class="font-semibold">🤖 Actualidad</h3>
+<p class="text-sm">
+Inteligencia artificial, nube, IoT y dispositivos móviles.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- GENERACIONES -->
+
+<div class="card bg-purple-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-purple-700 mb-6">
+🚀 Generaciones de las Computadoras
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Velocidad de Internet</h3>
-<p class="text-sm">Se recomienda al menos 5 Mbps para video básico y más de 10 Mbps para alta calidad.</p>
+<h3 class="font-semibold">1ª Generación</h3>
+<p class="text-sm">
+Tubos de vacío.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Estabilidad</h3>
-<p class="text-sm">Una conexión estable evita interrupciones y retrasos en la transmisión.</p>
+<h3 class="font-semibold">2ª Generación</h3>
+<p class="text-sm">
+Transistores más pequeños y confiables.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Baja latencia</h3>
-<p class="text-sm">Es importante para transmisiones en vivo y en tiempo real.</p>
+<h3 class="font-semibold">3ª Generación</h3>
+<p class="text-sm">
+Circuitos integrados que aumentaron la capacidad de procesamiento.
+</p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold mb-2">Tipo de conexión</h3>
-<p class="text-sm">Se recomienda conexión por cable (Ethernet) para mayor estabilidad.</p>
+<h3 class="font-semibold">4ª Generación</h3>
+<p class="text-sm">
+Microprocesadores y nacimiento de las computadoras personales.
+</p>
 </div>
 
 </div>
+
+</div>
+
+<!-- IMPORTANCIA -->
+
+<div class="card bg-cyan-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-cyan-700 mb-4">
+🎯 Importancia de la Arquitectura Computacional
+</h2>
+
+<p class="text-gray-600 leading-relaxed">
+Comprender los componentes y la evolución de las computadoras permite entender cómo se
+procesa la información, optimizar sistemas tecnológicos y desarrollar nuevas soluciones
+informáticas. Para los profesionales de Ingeniería en Software, estos fundamentos constituyen
+la base para diseñar, implementar y mejorar sistemas que respondan a las necesidades actuales
+y futuras de la sociedad.
+</p>
 
 </div>
 
@@ -197,92 +316,11 @@ inmediata para el usuario.
 <!-- FOOTER -->
 
 <div class="bg-gray-100 p-4 text-center text-xs text-gray-500">
-Infografía educativa sobre tecnología de streaming
-</div>
-
-</div>
-<!-- DIAGRAMA DE CONECTIVIDAD -->
-
-<div class="card bg-white p-8 rounded-2xl shadow border border-gray-200">
-
-<h2 class="text-2xl font-bold mb-6 text-indigo-700 text-center">
-🔗 ¿Cómo funciona la conectividad en un streaming en vivo?
-</h2>
-
-<p class="text-center text-gray-600 mb-8">
-Durante una transmisión en vivo, la información viaja en tiempo real desde el creador
-hasta los espectadores a través de Internet y servidores especializados.
-</p>
-
-<!-- DIAGRAMA -->
-
-<div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center">
-
-<!-- ORIGEN -->
-
-<div class="bg-blue-50 p-6 rounded-xl border w-full md:w-1/4">
-<div class="text-4xl mb-2">🎥</div>
-<h3 class="font-bold text-blue-700">Dispositivo de origen</h3>
-<p class="text-sm">
-Cámara, micrófono o computadora capturan audio y video.
-</p>
-</div>
-
-<!-- FLECHA -->
-<div class="text-3xl text-gray-400">>></div>
-
-<!-- INTERNET -->
-
-<div class="bg-green-50 p-6 rounded-xl border w-full md:w-1/4">
-<div class="text-4xl mb-2">🌐</div>
-<h3 class="font-bold text-green-700">Internet</h3>
-<p class="text-sm">
-Los datos se envían en paquetes mediante protocolos de red.
-</p>
-</div>
-
-<!-- FLECHA -->
-<div class="text-3xl text-gray-400">>></div>
-
-<!-- SERVIDOR -->
-
-<div class="bg-purple-50 p-6 rounded-xl border w-full md:w-1/4">
-<div class="text-4xl mb-2">🖥</div>
-<h3 class="font-bold text-purple-700">Servidor de streaming</h3>
-<p class="text-sm">
-Procesa, distribuye y adapta el contenido para múltiples usuarios.
-</p>
-</div>
-
-<!-- FLECHA -->
-<div class="text-3xl text-gray-400">>></div>
-
-<!-- USUARIOS -->
-
-<div class="bg-orange-50 p-6 rounded-xl border w-full md:w-1/4">
-<div class="text-4xl mb-2">📱</div>
-<h3 class="font-bold text-orange-700">Usuarios</h3>
-<p class="text-sm">
-Reciben el contenido en tiempo real en sus dispositivos.
-</p>
+Infografía educativa sobre Fundamentos de Arquitectura Computacional
 </div>
 
 </div>
 
-<!-- DETALLE EXTRA -->
-
-<div class="mt-8 bg-indigo-50 p-6 rounded-xl border text-sm text-gray-700">
-
-<strong>Flujo del proceso:</strong><br><br>
-
-1. El creador inicia la transmisión desde su dispositivo.<br>
-2. El contenido se codifica y se envía a través de Internet.<br>
-3. Un servidor de streaming recibe y distribuye la señal.<br>
-4. Los usuarios acceden al contenido desde diferentes plataformas.<br>
-
-</div>
-
-</div>
 </body>
 
 </html>
