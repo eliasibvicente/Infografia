@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 
@@ -38,14 +39,14 @@ box-shadow:0 15px 30px rgba(0,0,0,0.15);
 
 <!-- HEADER -->
 
-<div class="bg-gradient-to-r from-cyan-700 to-blue-800 text-white p-10 text-center">
+<div class="bg-gradient-to-r from-red-600 to-orange-600 text-white p-10 text-center">
 
 <h1 class="text-4xl font-extrabold mb-4">
-🖥️ Organización y Arquitectura Computacional
+🧠 Organización y Arquitectura Computacional
 </h1>
 
-<p class="text-lg text-cyan-100">
-La lógica que da vida a los sistemas digitales modernos
+<p class="text-lg text-red-100">
+Comprendiendo el funcionamiento interno del procesador
 </p>
 
 </div>
@@ -56,224 +57,92 @@ La lógica que da vida a los sistemas digitales modernos
 
 <div class="card bg-white p-8 rounded-2xl shadow border">
 
-<h2 class="text-2xl font-bold text-blue-700 mb-3">
-🏗️ ¿Qué estudia la Organización y Arquitectura Computacional?
+<h2 class="text-2xl font-bold text-red-700 mb-3">
+💻 ¿Qué es la CPU?
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-Es la disciplina que analiza cómo los sistemas digitales procesan, almacenan y manipulan
-información mediante circuitos electrónicos. Estudia la relación entre los fundamentos
-matemáticos, los componentes lógicos y los mecanismos que permiten el funcionamiento de
-computadoras, procesadores y memorias.
+La Unidad Central de Procesamiento (CPU) es el componente encargado de interpretar
+instrucciones, realizar cálculos y coordinar el funcionamiento del sistema. Actúa
+como el centro de control que transforma programas y datos en acciones concretas.
 </p>
 
 </div>
 
-<!-- JERARQUÍA GENERAL -->
+<!-- JERARQUÍA -->
 
-<div class="card bg-blue-50 p-8 rounded-2xl border">
+<div class="card bg-red-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold text-blue-700 mb-6">
-🔗 Relación Jerárquica de los Conceptos
+<h2 class="text-2xl font-bold text-red-700 mb-6">
+🔗 Relación entre los conceptos
 </h2>
 
 <div class="grid md:grid-cols-5 gap-4 text-center">
 
 <div class="bg-white p-4 rounded-xl border">
-📐<br>
-<strong>Lógica Matemática</strong>
-</div>
-
-<div class="bg-white p-4 rounded-xl border">
-➕<br>
-<strong>Álgebra de Boole</strong>
+🧠<br>
+<strong>CPU</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
 ⚙️<br>
-<strong>Operaciones Lógicas</strong>
+<strong>Unidades Internas</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-📊<br>
-<strong>Análisis y Optimización</strong>
+🔄<br>
+<strong>Ciclo de Instrucción</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-💾<br>
-<strong>Memoria Digital</strong>
+📜<br>
+<strong>Ensamblador x86</strong>
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+🚀<br>
+<strong>Software Eficiente</strong>
 </div>
 
 </div>
 
 </div>
 
-<!-- ALGEBRA DE BOOLE -->
-
-<div class="card bg-cyan-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-cyan-700 mb-6">
-📐 Lógica Matemática y Álgebra de Boole
-</h2>
-
-<div class="grid md:grid-cols-3 gap-6">
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Verdadero / Falso</h3>
-<p class="text-sm">
-Trabaja con estados binarios que representan decisiones lógicas.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">1 y 0</h3>
-<p class="text-sm">
-Los sistemas digitales representan toda la información mediante valores binarios.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Base de la Computación</h3>
-<p class="text-sm">
-Permite conectar las matemáticas con la electrónica digital.
-</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- FORMULAS BOOLEANAS -->
-
-<div class="card bg-indigo-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-indigo-700 mb-6">
-📝 Fórmulas Booleanas
-</h2>
-
-<p class="text-gray-600 mb-6">
-Las expresiones booleanas representan condiciones y decisiones que posteriormente serán
-implementadas mediante circuitos electrónicos.
-</p>
-
-<div class="grid md:grid-cols-3 gap-6">
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Validación</h3>
-<p class="text-sm">
-Permiten verificar reglas y condiciones dentro de un sistema.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Simplificación</h3>
-<p class="text-sm">
-Transforman problemas complejos en decisiones binarias.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Automatización</h3>
-<p class="text-sm">
-Sirven como base para el funcionamiento del hardware digital.
-</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- OPERACIONES -->
-
-<div class="card bg-green-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-green-700 mb-6">
-⚙️ Operaciones Lógicas Fundamentales
-</h2>
-
-<div class="grid md:grid-cols-4 gap-6">
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">AND</h3>
-<p class="text-sm">
-Todas las condiciones deben cumplirse simultáneamente.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">OR</h3>
-<p class="text-sm">
-Basta con que una condición sea verdadera.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">NOT</h3>
-<p class="text-sm">
-Invierte el valor lógico de entrada.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Compuertas Derivadas</h3>
-<p class="text-sm">
-NAND, NOR, XOR y XNOR amplían las posibilidades de diseño.
-</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- COMPUERTAS -->
-
-<div class="card bg-emerald-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-emerald-700 mb-6">
-🚪 Compuertas Lógicas
-</h2>
-
-<div class="grid md:grid-cols-2 gap-6">
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Compuertas Universales</h3>
-<p class="text-sm">
-NAND y NOR pueden construir cualquier otra función lógica existente.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Toma de Decisiones Digital</h3>
-<p class="text-sm">
-Implementan físicamente las operaciones booleanas dentro de los circuitos.
-</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- TABLAS Y KARNAUGH -->
+<!-- UNIDADES -->
 
 <div class="card bg-orange-50 p-8 rounded-2xl border">
 
 <h2 class="text-2xl font-bold text-orange-700 mb-6">
-📊 Herramientas de Análisis y Optimización
+⚙️ Unidades que integran el microprocesador
 </h2>
 
-<div class="grid md:grid-cols-2 gap-6">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Tablas de Verdad</h3>
+<h3 class="font-semibold">🎼 Unidad de Control</h3>
 <p class="text-sm">
-Muestran todas las combinaciones posibles de entrada y salida para verificar el comportamiento de un circuito.
+Interpreta instrucciones y coordina las operaciones internas del CPU.
 </p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">Mapas de Karnaugh</h3>
+<h3 class="font-semibold">➕ ALU</h3>
 <p class="text-sm">
-Simplifican expresiones booleanas para reducir componentes y mejorar la eficiencia.
+Realiza operaciones aritméticas y comparaciones lógicas.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">📦 Registros</h3>
+<p class="text-sm">
+Almacenamiento temporal de datos críticos para acelerar la ejecución.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">⚡ Memoria Caché</h3>
+<p class="text-sm">
+Conserva información frecuente para reducir tiempos de espera.
 </p>
 </div>
 
@@ -281,67 +150,138 @@ Simplifican expresiones booleanas para reducir componentes y mejorar la eficienc
 
 </div>
 
-<!-- FLIP FLOPS -->
+<!-- CICLO -->
 
-<div class="card bg-purple-50 p-8 rounded-2xl border">
+<div class="card bg-blue-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold text-purple-700 mb-6">
-💾 Flip-Flops y Almacenamiento de Información
+<h2 class="text-2xl font-bold text-blue-700 mb-6">
+🔄 Ciclo de ejecución de instrucciones
 </h2>
 
-<div class="grid md:grid-cols-4 gap-6">
+<div class="grid md:grid-cols-3 gap-6 text-center">
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">SR</h3>
+<div class="bg-white p-6 rounded-xl border">
+<h3 class="font-semibold mb-2">1️⃣ Fetch</h3>
 <p class="text-sm">
-Configuración básica de almacenamiento binario.
+El procesador obtiene la instrucción desde la memoria.
 </p>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">JK</h3>
+<div class="bg-white p-6 rounded-xl border">
+<h3 class="font-semibold mb-2">2️⃣ Decode</h3>
 <p class="text-sm">
-Versión mejorada que elimina estados ambiguos.
+La Unidad de Control interpreta qué acción debe realizarse.
 </p>
 </div>
 
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">D</h3>
+<div class="bg-white p-6 rounded-xl border">
+<h3 class="font-semibold mb-2">3️⃣ Execute</h3>
 <p class="text-sm">
-Utilizado ampliamente en registros y memorias.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">T</h3>
-<p class="text-sm">
-Empleado en contadores y circuitos secuenciales.
+Se ejecuta la operación correspondiente utilizando los recursos internos.
 </p>
 </div>
 
 </div>
 
 <p class="mt-6 text-gray-600">
-Los flip-flops permiten almacenar temporalmente bits de información y constituyen la base
-para registros, contadores, memorias y procesadores modernos.
+Este ciclo ocurre millones o miles de millones de veces por segundo,
+permitiendo la ejecución continua de programas y aplicaciones.
 </p>
 
 </div>
 
-<!-- IMPACTO -->
+<!-- ENSAMBLADOR -->
+
+<div class="card bg-purple-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-purple-700 mb-6">
+📜 Lenguaje Ensamblador x86
+</h2>
+
+<p class="text-gray-600 mb-6">
+El ensamblador representa el nivel de comunicación más cercano entre el software y el hardware.
+Cada instrucción corresponde a acciones específicas ejecutadas por el procesador.
+</p>
+
+<div class="grid md:grid-cols-5 gap-4">
+
+<div class="bg-white p-4 rounded-xl border text-center">
+<strong>MOV</strong>
+<p class="text-sm">Transferir datos</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border text-center">
+<strong>ADD</strong>
+<p class="text-sm">Sumar valores</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border text-center">
+<strong>SUB</strong>
+<p class="text-sm">Restar valores</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border text-center">
+<strong>CMP</strong>
+<p class="text-sm">Comparar datos</p>
+</div>
+
+<div class="bg-white p-4 rounded-xl border text-center">
+<strong>JMP</strong>
+<p class="text-sm">Modificar el flujo</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- HARDWARE Y SOFTWARE -->
+
+<div class="card bg-green-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-green-700 mb-6">
+🔌 Relación entre Hardware y Software
+</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">👨‍💻 Programador</h3>
+<p class="text-sm">
+Diseña algoritmos y aplicaciones.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">📜 Instrucciones</h3>
+<p class="text-sm">
+El código se traduce a operaciones comprensibles para el CPU.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">🧠 Procesador</h3>
+<p class="text-sm">
+Ejecuta las instrucciones y genera resultados.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- IMPORTANCIA -->
 
 <div class="card bg-slate-100 p-8 rounded-2xl border">
 
 <h2 class="text-2xl font-bold text-slate-700 mb-4">
-🎯 Importancia en la Arquitectura Computacional
+🎯 Importancia para Ingeniería en Software
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-La organización y arquitectura computacional demuestra cómo conceptos aparentemente simples,
-como los valores binarios y las operaciones lógicas, permiten construir sistemas digitales
-capaces de procesar grandes cantidades de información. La relación entre álgebra de Boole,
-compuertas lógicas, tablas de verdad, mapas de Karnaugh y flip-flops constituye la base
-sobre la que se desarrollan procesadores, memorias y tecnologías modernas.
+Comprender la arquitectura del procesador ayuda a desarrollar aplicaciones más eficientes,
+optimizar el uso de recursos y entender las limitaciones del hardware. Además, fortalece
+la capacidad analítica para diseñar soluciones tecnológicas más robustas y conscientes del
+entorno donde serán ejecutadas.
 </p>
 
 </div>
@@ -351,7 +291,7 @@ sobre la que se desarrollan procesadores, memorias y tecnologías modernas.
 <!-- FOOTER -->
 
 <div class="bg-gray-100 p-4 text-center text-xs text-gray-500">
-Infografía educativa sobre Organización y Arquitectura Computacional
+Infografía educativa sobre la Unidad Central de Procesamiento (CPU)
 </div>
 
 </div>
@@ -359,3 +299,4 @@ Infografía educativa sobre Organización y Arquitectura Computacional
 </body>
 
 </html>
+```
