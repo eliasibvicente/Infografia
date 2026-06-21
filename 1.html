@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Infografía - Organización y Arquitectura Computacional</title>
+<title>Infografía - Comunicación en Red y Arquitectura de Internet</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -39,14 +39,14 @@ box-shadow:0 15px 30px rgba(0,0,0,0.15);
 
 <!-- HEADER -->
 
-<div class="bg-gradient-to-r from-red-600 to-orange-600 text-white p-10 text-center">
+<div class="bg-gradient-to-r from-sky-600 to-blue-800 text-white p-10 text-center">
 
 <h1 class="text-4xl font-extrabold mb-4">
-🧠 Organización y Arquitectura Computacional
+🌐 Comunicación en Red y Arquitectura de Internet
 </h1>
 
-<p class="text-lg text-red-100">
-Comprendiendo el funcionamiento interno del procesador
+<p class="text-lg text-sky-100">
+Fundamentos que hacen posible la conectividad global
 </p>
 
 </div>
@@ -57,212 +57,250 @@ Comprendiendo el funcionamiento interno del procesador
 
 <div class="card bg-white p-8 rounded-2xl shadow border">
 
-<h2 class="text-2xl font-bold text-red-700 mb-3">
-💻 ¿Qué es la CPU?
+<h2 class="text-2xl font-bold text-blue-700 mb-3">
+🔗 ¿Qué es una red de computadoras?
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-La Unidad Central de Procesamiento (CPU) es el componente encargado de interpretar
-instrucciones, realizar cálculos y coordinar el funcionamiento del sistema. Actúa
-como el centro de control que transforma programas y datos en acciones concretas.
+Una red es un conjunto de dispositivos interconectados capaces de intercambiar información.
+Actualmente, las redes constituyen la base sobre la que operan aplicaciones, servicios,
+negocios digitales y plataformas de comunicación a nivel mundial.
 </p>
 
 </div>
 
 <!-- JERARQUÍA -->
 
-<div class="card bg-red-50 p-8 rounded-2xl border">
+<div class="card bg-blue-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold text-red-700 mb-6">
-🔗 Relación entre los conceptos
+<h2 class="text-2xl font-bold text-blue-700 mb-6">
+🧭 Relación entre los conceptos
 </h2>
 
 <div class="grid md:grid-cols-5 gap-4 text-center">
 
 <div class="bg-white p-4 rounded-xl border">
-🧠<br>
-<strong>CPU</strong>
+🌍<br>
+<strong>Internet</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-⚙️<br>
-<strong>Unidades Internas</strong>
+🏗️<br>
+<strong>Arquitectura</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-🔄<br>
-<strong>Ciclo de Instrucción</strong>
+📚<br>
+<strong>Modelos por Capas</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-📜<br>
-<strong>Ensamblador x86</strong>
+📍<br>
+<strong>Direccionamiento</strong>
 </div>
 
 <div class="bg-white p-4 rounded-xl border">
-🚀<br>
-<strong>Software Eficiente</strong>
+💻<br>
+<strong>Aplicaciones</strong>
 </div>
 
 </div>
 
 </div>
 
-<!-- UNIDADES -->
+<!-- INTERNET -->
 
-<div class="card bg-orange-50 p-8 rounded-2xl border">
+<div class="card bg-cyan-50 p-8 rounded-2xl border">
 
-<h2 class="text-2xl font-bold text-orange-700 mb-6">
-⚙️ Unidades que integran el microprocesador
-</h2>
-
-<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">🎼 Unidad de Control</h3>
-<p class="text-sm">
-Interpreta instrucciones y coordina las operaciones internas del CPU.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">➕ ALU</h3>
-<p class="text-sm">
-Realiza operaciones aritméticas y comparaciones lógicas.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">📦 Registros</h3>
-<p class="text-sm">
-Almacenamiento temporal de datos críticos para acelerar la ejecución.
-</p>
-</div>
-
-<div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">⚡ Memoria Caché</h3>
-<p class="text-sm">
-Conserva información frecuente para reducir tiempos de espera.
-</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- CICLO -->
-
-<div class="card bg-blue-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-blue-700 mb-6">
-🔄 Ciclo de ejecución de instrucciones
-</h2>
-
-<div class="grid md:grid-cols-3 gap-6 text-center">
-
-<div class="bg-white p-6 rounded-xl border">
-<h3 class="font-semibold mb-2">1️⃣ Fetch</h3>
-<p class="text-sm">
-El procesador obtiene la instrucción desde la memoria.
-</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl border">
-<h3 class="font-semibold mb-2">2️⃣ Decode</h3>
-<p class="text-sm">
-La Unidad de Control interpreta qué acción debe realizarse.
-</p>
-</div>
-
-<div class="bg-white p-6 rounded-xl border">
-<h3 class="font-semibold mb-2">3️⃣ Execute</h3>
-<p class="text-sm">
-Se ejecuta la operación correspondiente utilizando los recursos internos.
-</p>
-</div>
-
-</div>
-
-<p class="mt-6 text-gray-600">
-Este ciclo ocurre millones o miles de millones de veces por segundo,
-permitiendo la ejecución continua de programas y aplicaciones.
-</p>
-
-</div>
-
-<!-- ENSAMBLADOR -->
-
-<div class="card bg-purple-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-purple-700 mb-6">
-📜 Lenguaje Ensamblador x86
-</h2>
-
-<p class="text-gray-600 mb-6">
-El ensamblador representa el nivel de comunicación más cercano entre el software y el hardware.
-Cada instrucción corresponde a acciones específicas ejecutadas por el procesador.
-</p>
-
-<div class="grid md:grid-cols-5 gap-4">
-
-<div class="bg-white p-4 rounded-xl border text-center">
-<strong>MOV</strong>
-<p class="text-sm">Transferir datos</p>
-</div>
-
-<div class="bg-white p-4 rounded-xl border text-center">
-<strong>ADD</strong>
-<p class="text-sm">Sumar valores</p>
-</div>
-
-<div class="bg-white p-4 rounded-xl border text-center">
-<strong>SUB</strong>
-<p class="text-sm">Restar valores</p>
-</div>
-
-<div class="bg-white p-4 rounded-xl border text-center">
-<strong>CMP</strong>
-<p class="text-sm">Comparar datos</p>
-</div>
-
-<div class="bg-white p-4 rounded-xl border text-center">
-<strong>JMP</strong>
-<p class="text-sm">Modificar el flujo</p>
-</div>
-
-</div>
-
-</div>
-
-<!-- HARDWARE Y SOFTWARE -->
-
-<div class="card bg-green-50 p-8 rounded-2xl border">
-
-<h2 class="text-2xl font-bold text-green-700 mb-6">
-🔌 Relación entre Hardware y Software
+<h2 class="text-2xl font-bold text-cyan-700 mb-6">
+🌍 Internet: Plataforma Global de Interacción
 </h2>
 
 <div class="grid md:grid-cols-3 gap-6">
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">👨‍💻 Programador</h3>
+<h3 class="font-semibold">📨 Comunicación</h3>
 <p class="text-sm">
-Diseña algoritmos y aplicaciones.
+Permite intercambiar mensajes, archivos y datos en tiempo real.
 </p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">📜 Instrucciones</h3>
+<h3 class="font-semibold">🤝 Colaboración</h3>
 <p class="text-sm">
-El código se traduce a operaciones comprensibles para el CPU.
+Conecta personas, empresas y sistemas alrededor del mundo.
 </p>
 </div>
 
 <div class="bg-white p-5 rounded-xl border">
-<h3 class="font-semibold">🧠 Procesador</h3>
+<h3 class="font-semibold">☁️ Servicios Digitales</h3>
 <p class="text-sm">
-Ejecuta las instrucciones y genera resultados.
+Sostiene aplicaciones web, nube, streaming y comercio electrónico.
 </p>
+</div>
+
+</div>
+
+</div>
+
+<!-- ARQUITECTURA -->
+
+<div class="card bg-indigo-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-indigo-700 mb-6">
+🏗️ Arquitectura de Internet
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">🌐 Distribuida</h3>
+<p class="text-sm">
+No depende de un único punto de control.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">📈 Escalable</h3>
+<p class="text-sm">
+Permite incorporar nuevos dispositivos y redes.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">🔄 Adaptable</h3>
+<p class="text-sm">
+Integra múltiples tecnologías compatibles.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">🛡️ Resistente</h3>
+<p class="text-sm">
+Puede continuar operando incluso ante fallos parciales.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- MODELOS -->
+
+<div class="card bg-purple-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-purple-700 mb-6">
+📚 Modelos de Referencia por Capas
+</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="bg-white p-5 rounded-xl border">
+
+<h3 class="font-semibold mb-3">OSI (7 capas)</h3>
+
+<ul class="text-sm space-y-1">
+<li>7. Aplicación</li>
+<li>6. Presentación</li>
+<li>5. Sesión</li>
+<li>4. Transporte</li>
+<li>3. Red</li>
+<li>2. Enlace de Datos</li>
+<li>1. Física</li>
+</ul>
+
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+
+<h3 class="font-semibold mb-3">TCP/IP (4 capas)</h3>
+
+<ul class="text-sm space-y-1">
+<li>Aplicación</li>
+<li>Transporte</li>
+<li>Internet</li>
+<li>Acceso a Red</li>
+</ul>
+
+</div>
+
+</div>
+
+<p class="mt-6 text-gray-600">
+La división por capas reduce la complejidad y permite la interoperabilidad
+entre tecnologías desarrolladas por distintos fabricantes.
+</p>
+
+</div>
+
+<!-- DIRECCIONAMIENTO -->
+
+<div class="card bg-green-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-green-700 mb-6">
+📍 Direccionamiento y Protocolos
+</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">IP</h3>
+<p class="text-sm">
+Identifica de manera única cada dispositivo conectado a la red.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">Routers</h3>
+<p class="text-sm">
+Dirigen los paquetes de información hacia su destino.
+</p>
+</div>
+
+<div class="bg-white p-5 rounded-xl border">
+<h3 class="font-semibold">Protocolos</h3>
+<p class="text-sm">
+Definen las reglas para transmitir y recibir datos.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- FLUJO -->
+
+<div class="card bg-yellow-50 p-8 rounded-2xl border">
+
+<h2 class="text-2xl font-bold text-yellow-700 mb-6">
+🚚 ¿Cómo viaja la información?
+</h2>
+
+<div class="grid md:grid-cols-5 gap-4 text-center">
+
+<div class="bg-white p-4 rounded-xl border">
+👤<br>
+Usuario
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+📱<br>
+Dispositivo
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+🌐<br>
+Internet
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+📍<br>
+Dirección IP
+</div>
+
+<div class="bg-white p-4 rounded-xl border">
+🎯<br>
+Destino
 </div>
 
 </div>
@@ -278,10 +316,11 @@ Ejecuta las instrucciones y genera resultados.
 </h2>
 
 <p class="text-gray-600 leading-relaxed">
-Comprender la arquitectura del procesador ayuda a desarrollar aplicaciones más eficientes,
-optimizar el uso de recursos y entender las limitaciones del hardware. Además, fortalece
-la capacidad analítica para diseñar soluciones tecnológicas más robustas y conscientes del
-entorno donde serán ejecutadas.
+Comprender las redes permite desarrollar aplicaciones más eficientes,
+seguras y escalables. Los sistemas modernos dependen de la comunicación
+entre dispositivos, servidores y servicios en la nube, por lo que conocer
+la arquitectura de Internet es esencial para diseñar soluciones tecnológicas
+adaptadas a un entorno cada vez más conectado.
 </p>
 
 </div>
@@ -291,7 +330,7 @@ entorno donde serán ejecutadas.
 <!-- FOOTER -->
 
 <div class="bg-gray-100 p-4 text-center text-xs text-gray-500">
-Infografía educativa sobre la Unidad Central de Procesamiento (CPU)
+Infografía educativa sobre Comunicación en Red y Arquitectura de Internet
 </div>
 
 </div>
